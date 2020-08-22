@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.mainactivity.EmployeeDetails">
+
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_margin="20dp">
+
+
+            <ImageView
+                android:id="@+id/img_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+                android:src="@drawable/ic_placeholder_image" />
+
+            <TextView
+                android:id="@+id/item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_item"
+                android:textColor="@android:color/black"
+                android:textSize="9pt"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_company_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_name"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"
+                android:textSize="6pt"
+                android:textStyle="normal" />
+
+
+
+            <TextView
+                android:id="@+id/item_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_company_name"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="6pt"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/item_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_email"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"
+                android:textSize="6pt"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/item_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_phone"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="6pt"
+                android:textStyle="normal" />
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>
