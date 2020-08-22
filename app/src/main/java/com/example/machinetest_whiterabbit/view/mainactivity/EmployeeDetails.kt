@@ -45,6 +45,7 @@ private var name:String?=null
         if(intent.hasExtra("address")){
             address =intent.getStringExtra("address")
         }
+        item_name.text=name
         item_email.text=email
         item_phone.text=phone
         item_address.text=address
